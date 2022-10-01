@@ -8,12 +8,22 @@
     "module": "commonjs",
     "esModuleInterop": true,
     "strict": true,
-    "rootDirs": ["src",
+    "rootDirs": [
+      "src",
       "src/__tests__"
     ],
     "allowJs": true,
-    "lib": ["es2019"]
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ]
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/__tests__/*"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
+  ]
 }
